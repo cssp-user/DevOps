@@ -22,7 +22,7 @@ sh packages.sh
 
 run playbook
 
-Step 3: Configure Pipeline project and Teams channel
+Step 3: Intsall docker pipeline plugin, configure Pipeline project and Teams channel
 
 
 
