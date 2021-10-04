@@ -19,6 +19,8 @@ terraform apply infra-terraform/
 
 Step 2: Login to jenkins instance
 
+export PS1='[\u@\h \W]\$ ' 
+
 sh packages.sh
 
 sh ssh_keys.sh
