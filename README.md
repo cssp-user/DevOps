@@ -27,13 +27,16 @@ Step 2: Login to jenkins instance
 
 sh packages.sh
 
-run playbook
+sh ssh_keys.sh
+
+sh play_books.sh
+
 
 Step 3: Intsall docker pipeline plugin, configure Pipeline project and Teams channel
 
 
 
-Step 4: Run job and post notification to Teams channel
+Step 4: Run the job
 
 
 
