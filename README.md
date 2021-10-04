@@ -1,8 +1,11 @@
 # Project Title
+Set up Pipeline project
 
-Step 0: setup sandbox
+# Step 0: setup sandbox
 
 Launch ec2 instance with name sandbox
+
+$sudo yum install git -y 
 
 $git clone https://github.com/cssp-user/DevOps.git
 
@@ -11,29 +14,30 @@ sh DevOps/sandbox.sh
 need to enter aws credentials when it prompt
 
 
-Step 1: Provisioning infra
+# Step 1: Provisioning infra with Terraform
 
 $git clone https://github.com/cssp-user/infra-terraform.git
 
-terraform apply infra-terraform/
+$terraform apply infra-terraform/
 
-Step 2: Login to jenkins instance
+# Step 2: Login to jenkins instance
 
-export PS1='[\u@\h \W]\$ ' 
+$export PS1='[\u@\h \W]\$ ' 
 
-sh packages.sh
+$sh packages.sh
 
-sh ssh_keys.sh
+$sh ssh_keys.sh
 
-sh play_books.sh
-
-
-Step 3: jenkins-publicip:8080
-Intsall docker pipeline and Office 365 connector plugins , configure Pipeline project and Teams channel
+$sh play_books.sh
 
 
+# Step 3: jenkins-publicip:8080
+Intsall docker pipeline and Office 365 connector plugins
 
-Step 4: Run the job
+configure Pipeline project and Teams channel
+
+
+# Step 4: Run the job and publicip:5001
 
 
 
