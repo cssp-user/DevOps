@@ -8,6 +8,10 @@ python3 DevOps/sandbox.py
 
 need to enter aws credentials when it prompt
 
+Step 1: Build custom image
+git clone https://github.com/cssp-user/packer.git
+
+
 Step 1: Provisioning infra
 $git clone https://github.com/cssp-user/infra-terraform.git
 terraform apply infra-terraform/
