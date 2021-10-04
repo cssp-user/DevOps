@@ -26,7 +26,8 @@ sh ssh_keys.sh
 sh play_books.sh
 
 
-Step 3: Intsall docker pipeline and Office 365 connector plugins , configure Pipeline project and Teams channel
+Step 3: jenkins-publicip:8080
+Intsall docker pipeline and Office 365 connector plugins , configure Pipeline project and Teams channel
 
 
 
