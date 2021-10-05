@@ -25,6 +25,7 @@ $terraform plan .
 $terraform apply .
 
 # Step 2: Installing and configuring Jenkins server using Ansible playbook
+login to jenkins server
 
 $export PS1='[\u@\h \W]\$ ' 
 
