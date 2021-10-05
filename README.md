@@ -11,7 +11,7 @@ $git clone https://github.com/cssp-user/DevOps.git
 
 $sh DevOps/sandbox.sh
 
-$aws configure
+$sh DevOps/export.sh
 
 
 # Step 1: Provisioning infrastructure with Terraform
