@@ -7,7 +7,7 @@ write_files:
   permissions: '0755'
   content: |
      #!/bin/bash
-       sudo yum update
+       sudo yum update -y
        sudo yum install git -y
        sudo yum install epel-release -y
        sudo yum install ansible -y
