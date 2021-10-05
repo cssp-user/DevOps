@@ -32,7 +32,7 @@ $sh play_books.sh
 
 
 # Step 3: Configure Pipeline project to Build and run containerized Flask app
-http://<PUBLICIP>:8080
+http://PUBLICIP:8080
 
 Intsall docker pipeline and Office 365 connector plugins
 
@@ -40,7 +40,7 @@ configure Pipeline project and Teams channel
 
 Run the job 
 
-http://<PUBLICIP>::5001
+http://PUBLICIP::5001
 
 
 
