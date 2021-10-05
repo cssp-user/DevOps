@@ -45,6 +45,7 @@ http://PUBLICIP:8080
 Intsall docker pipeline and Office 365 connector plugins
 
 configure Pipeline project and Teams channel
+https://github.com/cssp-user/flask-app.git
 
 Run the job 
 
