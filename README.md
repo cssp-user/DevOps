@@ -18,9 +18,11 @@ $sh export.sh
 
 # Step 1: Provisioning infrastructure with Terraform
 
-$git clone https://github.com/cssp-user/infra-terraform.git
+$terraform init .
 
-$terraform apply infra-terraform/
+$terraform plan .
+
+$terraform apply .
 
 # Step 2: Installing and configuring Jenkins server using Ansible playbook
 
