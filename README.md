@@ -28,9 +28,7 @@ $terraform plan .
 $terraform apply .
 
 # Step 2: Installing and configuring Jenkins server using Ansible playbook
-login to jenkins server
-
-$export PS1='[\u@\h \W]\$ ' 
+login to jenkins server 
 
 $sh packages.sh
 
@@ -44,7 +42,7 @@ http://PUBLICIP:8080
 
 Intsall docker pipeline and Office 365 connector plugins
 
-configure Pipeline project and Teams channel
+configure Pipeline project and Microsoft Teams channel
 https://github.com/cssp-user/flask-app.git
 
 Run the job 
