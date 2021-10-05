@@ -32,11 +32,11 @@ write_files:
   permissions: '0755'
   content: |
      #!/bin/bash
-     git clone https://github.com/cssp-user/conf-ansible.git
+     git clone https://github.com/cssp-user/DevOps.git
 
-     cd conf-ansible/plays
+     cd DevOps/ansible/plays
 
-     ansible-playbook -i hosts devstack.yml
+     ansible-playbook cicd.yml
 
 
 runcmd:
