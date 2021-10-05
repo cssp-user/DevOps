@@ -1,26 +1,26 @@
 # Project Title
 Set up Pipeline project
 
-# Step 0: setup sandbox
+# Pre-Requisites
 
-Launch ec2 instance with name sandbox
+Launch ec2 instance to run terraform 
 
 $sudo yum install git -y 
 
 $git clone https://github.com/cssp-user/DevOps.git
 
-sh DevOps/sandbox.sh
+$sh DevOps/sandbox.sh
 
-need to enter aws credentials when it prompt
+$aws configure
 
 
-# Step 1: Provisioning infra with Terraform
+# Step 1: Provisioning infrastructure with Terraform
 
 $git clone https://github.com/cssp-user/infra-terraform.git
 
 $terraform apply infra-terraform/
 
-# Step 2: Login to jenkins instance
+# Step 2: Installing and configuring Jenkins server using Ansible playbook
 
 $export PS1='[\u@\h \W]\$ ' 
 
@@ -31,13 +31,17 @@ $sh ssh_keys.sh
 $sh play_books.sh
 
 
-# Step 3: jenkins-publicip:8080
+# Step 3: Configure Pipeline project to Build and run containerized Flask app
+http://<PUBLICIP>:8080
+
 Intsall docker pipeline and Office 365 connector plugins
 
 configure Pipeline project and Teams channel
 
+Run the job 
 
-# Step 4: Run the job and publicip:5001
+http://<PUBLICIP>::5001
+
 
 
 
