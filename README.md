@@ -3,7 +3,9 @@ Set up Pipeline project
 
 # Pre-Requisites
 
-Launch ec2 instance to run terraform 
+Launch ec2 instance to run terraform with name sandbox
+
+Login to sandbox instance
 
 $sudo yum install git -y 
 
