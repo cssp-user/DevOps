@@ -15,10 +15,11 @@ $cd DevOps
 
 $sh sandbox.sh
 
-$sh export.sh
+$source export.sh
 
 
 # Step 1: Provisioning infrastructure with Terraform
+$cd terraform
 
 $terraform init .
 
