@@ -9,9 +9,11 @@ $sudo yum install git -y
 
 $git clone https://github.com/cssp-user/DevOps.git
 
-$sh DevOps/sandbox.sh
+$cd DevOps
 
-$sh DevOps/export.sh
+$sh sandbox.sh
+
+$sh export.sh
 
 
 # Step 1: Provisioning infrastructure with Terraform
